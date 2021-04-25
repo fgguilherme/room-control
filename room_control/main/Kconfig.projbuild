@@ -1,0 +1,69 @@
+menu "ROOM-CONTROL Configuration"
+
+    config BROKER_URL
+        string "Broker URL"
+        default "mqtt://pidiggital.ddns.net"
+        help
+            URL of the broker to connect to
+
+    config PIN_RELAY_BAR_1
+        int "Relay 1"
+        default 5
+        help
+            ESP32 Port to Relay 01
+
+    config PIN_RELAY_BAR_2
+        int "Relay 2"
+        default 18
+        help
+            ESP32 Port to Relay 02
+
+    config PIN_RELAY_BAR_3
+        int "Relay 3"
+        default 15
+        help
+            ESP32 Port to Relay 03
+
+    config PIN_RELAY_BAR_4
+        int "Relay 4"
+        default 2
+        help
+            ESP32 Port to Relay 04
+
+    config PIN_RELAY_BAR_5
+        int "Relay 5"
+        default 4
+        help
+            ESP32 Port to Relay 05
+
+    config PIN_RELAY_BAR_6
+        int "Relay 6"
+        default 16
+        help
+            ESP32 Port to Relay 06
+
+    config PIN_RELAY_BAR_7
+        int "Relay 7"
+        default 17
+        help
+            ESP32 Port to Relay 07
+
+    config PIN_RELAY_BAR_8
+        int "Relay 8"
+        default 19
+        help
+            ESP32 Port to Relay 08
+
+    config PIN_I2C_SDA
+        int "I2C SDA Pin"
+        default 21
+        help
+            ESP32 Port to SDA
+
+    config PIN_I2C_SCL
+        int "I2C SCL Pin"
+        default 22
+        help
+            ESP32 Port to SCL
+
+endmenu
