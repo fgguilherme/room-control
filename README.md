@@ -8,6 +8,8 @@ Esp32 based device to control 8relay board throught MQTT protocol.
 
 * after install and export, update relay ports and MQTT broker:
 
+    * cd room_control
+
     * idf.py fullclean
     
     * idf.py menuconfig
